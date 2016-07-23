@@ -1,0 +1,4 @@
+node_modules/
+.idea/
+
+!server/app/node_modules/

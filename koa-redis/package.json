@@ -1,0 +1,34 @@
+{
+  "name": "koa-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -t 10000 --slow 75 test/*",
+    "dev": "DEBUG=* supervisor index.js",
+    "dev2": "DEBUG=* supervisor index2.js",
+    "dev3": "DEBUG=* supervisor index3.js",
+    "dev4": "DEBUG=* supervisor index4.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "1.0.4",
+    "co": "4.6.0",
+    "debug": "2.2.0",
+    "ioredis": "2.2.0",
+    "koa": "1.2.1",
+    "koa-router": "5.4.0",
+    "mongodb": "2.2.4",
+    "redis": "2.6.2",
+    "superagent": "2.1.0",
+    "supervisor": "0.11.0"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.1.2",
+    "istanbul": "^0.4.4",
+    "mocha": "2.5.3",
+    "supertest": "1.2.0"
+  }
+}

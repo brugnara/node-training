@@ -1,0 +1,10 @@
+verbose: false
+instrumentation:
+    root: ./routes
+    extensions:
+        - .js
+    default-excludes: true
+reporting:
+    reports:
+        - html
+    dir: ./coverage

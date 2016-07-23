@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "DEBUG=* supervisor -w app -e 'js,json' app/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "1.0.3",
+    "co-fs": "1.2.0",
+    "debug": "2.2.0",
+    "koa": "1.2.0",
+    "koa-body": "1.4.0",
+    "koa-router": "5.4.0",
+    "moment": "2.14.1",
+    "stream-transform": "0.1.1",
+    "supervisor": "0.11.0"
+  }
+}
