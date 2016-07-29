@@ -1,0 +1,24 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "DEBUG=* supervisor -e 'js' app/server/index.js",
+    "build-client": "browserify app/client/index.js > app/public/bundle.js",
+    "watch-client": "watchify app/client/index.js -vo app/public/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "2.2.0",
+    "koa": "1.2.1",
+    "koa-router": "5.4.0"
+  },
+  "devDependencies": {
+    "jquery": "3.1.0",
+    "supervisor": "0.11.0",
+    "watchify": "3.7.0"
+  }
+}

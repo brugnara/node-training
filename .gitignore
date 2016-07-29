@@ -2,3 +2,5 @@ node_modules/
 .idea/
 
 !server/app/node_modules/
+!client/app/node_modules/
+*.log
